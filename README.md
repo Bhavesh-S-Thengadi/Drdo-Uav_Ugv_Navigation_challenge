@@ -1,6 +1,8 @@
+## DRDO's UAV-Guided UGV Navigation Challenge
+
 Python -version => 3.6.9
 
-Library Used: 
+### Library Used: 
 - rospy => 1.14.12
 - numpy => 1.19.5
 - pencv-python => 4.5.5.64
@@ -19,8 +21,9 @@ Library Used:
 
 # Instructions for running step by step
 1.Launching the world and respective consoles:
-- Run the <file_name .sh>for launching of the respective world and starting the ardupilot/Arducopter, sim_vehicle.py and gazebo-iris –console.
-        ./<path><file_name>.sh
+- Run the <file_name.sh> for launching of the respective world and starting the ardupilot/Arducopter, sim_vehicle.py and gazebo-iris –console.
+       
+       `./<path><file_name>.sh`
 
 2.Wait for the GPS:
 - Note: Prearm checks should be disabled for avoiding the Gyros not calibrating problem because of the car slipping on the road during the start.
