@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/aero/catkin_ws/InterIIT_DRDO/prius_msgs/build/devel/setup.sh
